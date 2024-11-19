@@ -1,0 +1,61 @@
+name: Build soccer packages for simulation
+
+on:
+  repository_dispatch:
+    types: [update_subtrees]  # Event type that triggers this workflow
+
+jobs:
+  manage-subtree:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    env:
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH key secret
+
+
+    steps:
+      # Step 1: Checkout the main repository
+      - name: Checkout main repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Use the deploy key for authentication
+        
+      # Step 2: Set up SSH for accessing private repositories
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # Optionally, disable host key checking to avoid prompt
+          echo -e "Host *\n  StrictHostKeyChecking no\n  UserKnownHostsFile /dev/null" > ~/.ssh/config
+
+      # Step 3: Update user credentials
+      - name: Update user credentials
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "actions@github.com"
+        
+      # Step 4: Add subtrees for external repositories
+      - name: Updating vision_pkg subtrees
+        run: |
+          git subtree pull --prefix vision_pkg git@github.com:Blenders-FC/vision_pkg.git main --squash
+        
+      # Step 5: Add subtrees for external repositories
+      - name: Updating movement_pkg subtrees
+        run: |
+          git subtree pull --prefix movement_pkg git@github.com:Blenders-FC/movement_pkg.git main --squash
+        
+      # Step 6: Add subtrees for external repositories
+      - name: Updating localization_pkg subtrees
+        run: |
+          git subtree pull --prefix localization_pkg git@github.com:Blenders-FC/localization_pkg.git main --squash
+
+      # Step 7: Push changes back to the main repository
+      - name: Push changes to main repo
+        run: |
+          git add .
+          git commit -m "Update subtrees" || echo "No changes to commit"
+          git push
