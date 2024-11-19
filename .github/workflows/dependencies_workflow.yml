@@ -12,7 +12,7 @@ jobs:
       contents: write
     
     env:
-      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH key secret
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_SIM_PRIVATE_KEY }}  # SSH key secret
 
 
     steps:
