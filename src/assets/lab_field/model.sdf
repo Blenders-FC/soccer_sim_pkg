@@ -8,7 +8,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>5.20 7.40</size>
+            <size>5.20 3.8</size>
           </plane>
         </geometry>
         <surface>
@@ -25,7 +25,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>5.20 7.40</size>
+            <size>5.20 3.80</size>
           </plane>
         </geometry>
         <material>
@@ -37,7 +37,7 @@
         </material>
       </visual>
       <visual name="sideline_1">
-        <pose>0 3 0.011 0 0 0</pose>
+        <pose>0 1.9 0.011 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
@@ -53,7 +53,7 @@
         </material>
       </visual>
       <visual name="sideline_2">
-        <pose>0 -3 0.011 0 0 0</pose>
+        <pose>0 -1.9 0.011 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
@@ -74,7 +74,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>0.05 6.05</size>
+            <size>0.05 3.8</size>
           </plane>
         </geometry>
         <material>
@@ -90,7 +90,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>0.05 6.05</size>
+            <size>0.05 3.8</size>
           </plane>
         </geometry>
         <material>
@@ -101,12 +101,12 @@
         </material>
       </visual>
       <visual name="area_1_line_a">
-        <pose>-1.25 0 0.011 0 0 0</pose>
+        <pose>-1.35 0 0.011 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>0.05 3.05</size>
+            <size>0.05 2.95</size>
           </plane>
         </geometry>
         <material>
@@ -117,12 +117,12 @@
         </material>
       </visual>
       <visual name="area_2_line_a">
-        <pose>-1.75 1.5 0.011 0 0 0</pose>
+        <pose>-1.8 1.5 0.011 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>1.05 0.05</size>
+            <size>0.95 0.05</size>
           </plane>
         </geometry>
         <material>
@@ -133,12 +133,12 @@
         </material>
       </visual>
       <visual name="area_3_line_a">
-        <pose>-1.75 -1.5 0.011 0 0 0</pose>
+        <pose>-1.8 -1.5 0.011 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>1.05 0.05</size>
+            <size>0.95 0.05</size>
           </plane>
         </geometry>
         <material>
@@ -149,7 +149,7 @@
         </material>
       </visual>
       <visual name="penalty_a">
-        <pose>-1.5 0 0.01 0 0 0</pose>
+        <pose>-0.75 0 0.01 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
           <cylinder>
