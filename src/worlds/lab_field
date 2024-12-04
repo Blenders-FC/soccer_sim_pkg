@@ -647,15 +647,15 @@
       <pose>-5.05324 -0.011617 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1181 215000000</sim_time>
-      <real_time>295 534104866</real_time>
-      <wall_time>1733274123 314719979</wall_time>
-      <iterations>294058</iterations>
-      <model name='Robotec Lab Field'>
-        <pose>-2.25 0 0 0 -0 0</pose>
+      <sim_time>1398 47000000</sim_time>
+      <real_time>218 137121570</real_time>
+      <wall_time>1733339131 903835055</wall_time>
+      <iterations>216832</iterations>
+      <model name='Robotec Lab Field_0'>
+        <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='field'>
-          <pose>-2.25 0 0.01 0 -0 0</pose>
+          <pose>0 0 0.01 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -672,98 +672,98 @@
         </link>
       </model>
       <model name='robocup_3d_goal_0'>
-        <pose>-4.5 -1e-06 0 0 -0 3.13528</pose>
+        <pose>-2 0 0 0 -0 3.13528</pose>
         <scale>1 1 1</scale>
         <link name='center_net'>
-          <pose>-5.06 0.003534 0.4 0 -0 3.13528</pose>
+          <pose>-2.56 0.003534 0.4 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='center_support_horiz_lower'>
-          <pose>-5.06 0.003534 0.01 3.14159 1.57079 -0.00631</pose>
+          <pose>-2.56 0.003534 0.01 3.14159 1.57079 -0.006309</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='center_support_horiz_upper'>
-          <pose>-5.06 0.003534 0.79 3.14159 1.57079 -0.00631</pose>
+          <pose>-2.56 0.003534 0.79 3.14159 1.57079 -0.006309</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='crossbar'>
-          <pose>-4.50001 2e-06 0.85 1.57 1.57 3.13528</pose>
+          <pose>-2.00001 3e-06 0.85 1.57 1.57 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='left_net'>
-          <pose>-4.80662 -1.04809 0.4 0 -0 3.13528</pose>
+          <pose>-2.30662 -1.04809 0.4 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='left_post'>
-          <pose>-4.50663 -1.04998 0.45 0 -0 3.13528</pose>
+          <pose>-2.00663 -1.04998 0.45 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='left_support_horiz_lower'>
-          <pose>-4.80662 -1.04809 0.01 0 -0 3.13528</pose>
+          <pose>-2.30662 -1.04809 0.01 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='left_support_horiz_upper'>
-          <pose>-4.80662 -1.04809 0.79 0 -0 3.13528</pose>
+          <pose>-2.30662 -1.04809 0.79 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='left_support_vertical'>
-          <pose>-5.06662 -1.04644 0.4 3.14159 1.57079 -0.00631</pose>
+          <pose>-2.56662 -1.04644 0.4 3.14159 1.57079 -0.006309</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='right_net'>
-          <pose>-4.79338 1.05187 0.4 0 -0 3.13528</pose>
+          <pose>-2.29338 1.05187 0.4 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='right_post'>
-          <pose>-4.49338 1.04998 0.45 0 -0 3.13528</pose>
+          <pose>-1.99338 1.04998 0.45 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='right_support_horiz_lower'>
-          <pose>-4.79338 1.05187 0.01 0 -0 3.13528</pose>
+          <pose>-2.29338 1.05187 0.01 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='right_support_horiz_upper'>
-          <pose>-4.79338 1.05187 0.79 0 -0 3.13528</pose>
+          <pose>-2.29338 1.05187 0.79 0 -0 3.13528</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='right_support_vertical'>
-          <pose>-5.05337 1.05351 0.4 3.14159 1.57079 -0.00631</pose>
+          <pose>-2.55337 1.05351 0.4 3.14159 1.57079 -0.006309</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='soccer_ball'>
-        <pose>-2.98423 0.008818 0.05 0 -0 0</pose>
+        <pose>-0.519912 -0.019427 0.05 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='soccer_ball_link'>
-          <pose>-2.98423 0.008818 0.05 0 -0 0</pose>
+          <pose>-0.519912 -0.019427 0.05 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -775,7 +775,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>2.00689 4.81925 7.09509 0 0.853825 -2.32148</pose>
+        <pose>2.98825 6.6345 9.34183 0 0.853825 -2.32148</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -830,7 +830,7 @@
       </link>
       <pose>0.005392 0.008818 0 0 -0 0</pose>
     </model>
-    <model name='Robotec Lab Field'>
+    <model name='Robotec Lab Field_0'>
       <static>1</static>
       <link name='field'>
         <pose>0 0 0.01 0 -0 0</pose>
@@ -875,7 +875,7 @@
           </material>
         </visual>
         <visual name='sideline_1'>
-          <pose>0 1.9 0.011 0 -0 0</pose>
+          <pose>0.25 1.85 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -891,7 +891,7 @@
           </material>
         </visual>
         <visual name='sideline_2'>
-          <pose>0 -1.9 0.011 0 -0 0</pose>
+          <pose>0.25 -1.85 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -907,12 +907,12 @@
           </material>
         </visual>
         <visual name='endline_1'>
-          <pose>-2.25 0 0.011 0 -0 0</pose>
+          <pose>-2 0 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>0.05 3.8</size>
+              <size>0.05 3.75</size>
             </plane>
           </geometry>
           <material>
@@ -923,7 +923,7 @@
           </material>
         </visual>
         <visual name='endline_2'>
-          <pose>2.25 0 0.011 0 -0 0</pose>
+          <pose>2.5 0 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -939,7 +939,7 @@
           </material>
         </visual>
         <visual name='area_1_line_a'>
-          <pose>-1.35 0 0.011 0 -0 0</pose>
+          <pose>-1.1 0 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -955,7 +955,7 @@
           </material>
         </visual>
         <visual name='area_2_line_a'>
-          <pose>-1.8 1.5 0.011 0 -0 0</pose>
+          <pose>-1.55 1.5 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -971,7 +971,7 @@
           </material>
         </visual>
         <visual name='area_3_line_a'>
-          <pose>-1.8 -1.5 0.011 0 -0 0</pose>
+          <pose>-1.55 -1.5 0.011 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -987,7 +987,7 @@
           </material>
         </visual>
         <visual name='penalty_a'>
-          <pose>-0.75 0 0.01 0 -0 0</pose>
+          <pose>-0.5 0 0.01 0 -0 0</pose>
           <cast_shadows>0</cast_shadows>
           <geometry>
             <cylinder>
@@ -1006,7 +1006,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>-2.24215 0.032974 0 0 -0 0</pose>
+      <pose>3.21533 2.86105 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
