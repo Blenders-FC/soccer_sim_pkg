@@ -647,11 +647,11 @@
       <pose>-5.05324 -0.011617 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1398 47000000</sim_time>
-      <real_time>218 137121570</real_time>
-      <wall_time>1733339131 903835055</wall_time>
-      <iterations>216832</iterations>
-      <model name='Robotec Lab Field_0'>
+      <sim_time>1539 916000000</sim_time>
+      <real_time>142 618729367</real_time>
+      <wall_time>1733424242 51581528</wall_time>
+      <iterations>141869</iterations>
+      <model name='Robotec Lab Field'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='field'>
@@ -672,7 +672,7 @@
         </link>
       </model>
       <model name='robocup_3d_goal_0'>
-        <pose>-2 0 0 0 -0 3.13528</pose>
+        <pose>-2 -1e-06 0 0 -0 3.13528</pose>
         <scale>1 1 1</scale>
         <link name='center_net'>
           <pose>-2.56 0.003534 0.4 0 -0 3.13528</pose>
@@ -830,7 +830,7 @@
       </link>
       <pose>0.005392 0.008818 0 0 -0 0</pose>
     </model>
-    <model name='Robotec Lab Field_0'>
+    <model name='Robotec Lab Field'>
       <static>1</static>
       <link name='field'>
         <pose>0 0 0.01 0 -0 0</pose>
@@ -928,7 +928,7 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>0.05 3.8</size>
+              <size>0.05 3.75</size>
             </plane>
           </geometry>
           <material>
@@ -1006,7 +1006,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>3.21533 2.86105 0 0 -0 0</pose>
+      <pose>-4.22286 4.43741 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>

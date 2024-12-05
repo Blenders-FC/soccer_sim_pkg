@@ -90,7 +90,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>0.05 3.8</size>
+            <size>0.05 3.75</size>
           </plane>
         </geometry>
         <material>
