@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>soccer_gazebo_sim</name>
+  <name>soccer_sim_pkg</name>
   <version>0.0.0</version>
-  <description>The soccer_gazebo_sim package</description>
+  <description>The soccer_sim_pkg package</description>
 
   <maintainer email="pedrodeniz11@gmail.com">Pedro Deniz</maintainer>
   <license>BSD</license>
 
-  <!-- <url type="website">http://wiki.ros.org/soccer_gazebo_sim</url> -->
+  <!-- <url type="website">http://wiki.ros.org/soccer_sim_pkg</url> -->
   
   <author email="pedrodeniz11@gmail.com">Pedro Deniz</author>
 
